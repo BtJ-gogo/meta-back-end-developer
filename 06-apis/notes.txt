@@ -1,8 +1,0 @@
-user,password,email,role
-admin,lemon@789!,admin@littlelemon.com,superuser
-Maneger01,@mane@01@,,Manager
-Maneger02,@mane@02@,,Manager
-Delivery01,@deli@01@,,Delivery crew
-Delivery02,@deli@02@,,Delivery crew
-Customer01,@cust@01@,,Customer
-Customer02,@cust@02@,,Customer
