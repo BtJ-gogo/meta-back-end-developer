@@ -73,7 +73,7 @@
         bookings = ''
         
         /* Step 11: Part three */
-        for (item of data) {
+        for (let item of data) {
           console.log(item.fields)
           reserved_slots.push(item.fields.reservation_slot)
           bookings += `<p>${item.fields.first_name} - ${formatTime(item.fields.reservation_slot)}</p>`
@@ -81,7 +81,7 @@
         /* Step 12: Part four  */
         slot_options = "<option value='0' dsabled>Select time</option>"
         console.log(reserved_slots)
-        flag = 0
+        let flag = 0
         for (let i = 10; i <= 20; i++) {
           const label = formatTime(i)
           if (reserved_slots.includes(i)) {
